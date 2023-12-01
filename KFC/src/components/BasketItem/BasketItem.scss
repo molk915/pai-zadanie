@@ -1,0 +1,28 @@
+.basket-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.info span {
+  margin-right: 10px;
+}
+
+.actions button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.actions button:hover {
+  background-color: #cc0000;
+}
